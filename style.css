@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: #FFF1CC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+.logo{
+    
+    text-align: center;
+    width: 400px;
+    margin: 10px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin: 10px 0;
+
+}
+.navbar li{
+    margin:  10px;
+    list-style: none;
+    /* border: 1px solid black; */
+    width: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: gray;
+    cursor: pointer;
+}
+
+
+/* slider */
+.wall{
+    width: 100%;
+    position: relative;
+}
+.wall img{
+    width: 100%;
+}
+
+/* CONTENT */
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFF1CC;
+    font-family: cursive;
+}
+.content1{
+    /* border: 1px solid black; */
+    width: 460px;
+    margin: 10px;
+}
+.content1 h5 p {
+    color: gray;
+}
+.content1 h4{
+    color: #FF9F39;
+}
+.contentimg{
+    /* border: 1px solid black; */
+    width: 350px;
+    margin: 10px;
+
+}
+.contentimg img{
+    width: 180px;
+}
+
+/* STORY */
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FD8D1E;
+
+}
+.options div{
+    width: 150px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.options div i{
+    font-size: 22px;
+    color: white;
+    
+
+}
+.options p{
+    margin-top: 20px;
+    color: white;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background-color: #FFF1CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer div{
+    width: 50px;
+    margin: 20px 0;
+}
+.footer i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.copy{
+    background-color: #FFF1CC;
+    text-align: center;
+}
